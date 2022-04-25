@@ -1,0 +1,66 @@
+.card-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem
+}
+
+@media only screen and (max-width:550px){
+    .card-main{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.card{
+    /* padding: 10px; */
+    /* min-width: 6.25rem; */
+    margin: 2.5%;
+
+    /* max-width: 12.5rem; */
+    text-align: center;
+    position: relative;
+    background-color: #FCCF00;
+    border-color: #2468B1;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    justify-content: space-between;
+}
+
+.card-body{
+    padding: 10px;
+    /* margin: 2.5%; */
+
+}
+
+.card-title{
+    text-decoration: none;
+    color: black;
+}
+
+.card-owned{
+    text-align: center;
+}
+
+.owned-tag{
+    margin-bottom: 10px;
+}
+
+.card-nickname{
+    margin-bottom: 10px;
+}
+
+.remove-card{
+    margin-top: 2.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+

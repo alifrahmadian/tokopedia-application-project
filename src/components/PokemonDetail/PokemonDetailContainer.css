@@ -1,0 +1,120 @@
+.detail-container{
+    background-color: #FCCF00;
+    border-color: #2468B1;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    margin: 2.5%;
+    padding: 2.5%;
+   
+}
+
+.detail-name {
+    text-align: center;
+    grid-area: detail-name;
+}
+
+.detail-image{
+    grid-area: detail-image;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+
+.detail-types-container{
+    grid-area: detail-types-container;
+}
+
+.detail-desc-container{
+    grid-area: detail-desc-container;
+}
+
+.detail-moves-container{
+    grid-area: detail-moves-container;
+    /* margin-top: 15%; */
+}
+
+.catch-button-container{
+    grid-area: catch-button;
+    text-align: center;
+}
+
+.detail-container-body{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-rows: 0.01fr 0.01fr 0.05fr 0.1fr 0fr;
+    grid-template-areas: 
+    "detail-name detail-name"
+    "detail-types-container detail-image "
+    "detail-desc-container detail-image "
+    "detail-moves-container detail-moves-container"
+    "catch-button catch-button"
+    
+}
+
+.detail-moves-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-template-areas:
+    "move-title move-title move-title move-title move-title move-title"
+    "moves moves moves moves moves moves"
+}
+
+.move-title{
+    grid-area: move-title;
+}
+
+
+.detail-type{
+    text-align: center;
+}
+
+.catch-button-container{
+    margin-top: 50px;
+}
+
+.catch-button{
+    background-color: #FF0000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+@media only screen and (max-width:550px){
+    .detail-container-body{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr 0.01fr;
+        grid-template-areas: 
+        "detail-name"
+        "detail-image"
+        "catch-button"
+        "detail-types-container"
+        "detail-desc-container"
+        "detail-moves-container"
+    }
+
+    .detail-moves-container{
+        margin-top: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.1fr 1fr;
+        grid-template-areas:
+        "move-title move-title"
+        "moves moves"
+    }
+
+    .detail-image{
+        max-width: 100%;
+    }
+
+    .catch-button-container{
+        margin-top: 0;
+    }
+}
