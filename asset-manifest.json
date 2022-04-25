@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tokopedia-application-project/static/css/main.6ac54dd5.css",
+    "main.js": "/tokopedia-application-project/static/js/main.2a93cb0c.js",
+    "static/js/787.f0329cb5.chunk.js": "/tokopedia-application-project/static/js/787.f0329cb5.chunk.js",
+    "static/media/logo.svg": "/tokopedia-application-project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/tokopedia-application-project/index.html",
+    "main.6ac54dd5.css.map": "/tokopedia-application-project/static/css/main.6ac54dd5.css.map",
+    "main.2a93cb0c.js.map": "/tokopedia-application-project/static/js/main.2a93cb0c.js.map",
+    "787.f0329cb5.chunk.js.map": "/tokopedia-application-project/static/js/787.f0329cb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ac54dd5.css",
+    "static/js/main.2a93cb0c.js"
+  ]
+}
