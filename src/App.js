@@ -17,7 +17,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route path="/" element={<PokemonList />} />
+            <Route path="/tokopedia-application-project" element={<PokemonList />} />
             <Route path="detail/:id" element={<PokemonDetail />} />
             <Route path="/mypokemonlist" element={<MyPokemonList />} />
           </Routes>
